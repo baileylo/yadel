@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/** @var \Illuminate\Routing\Router $router */
+
+$router->get('/recipe/{recipe}', 'RecipeController@show');
+$router->get('/add-recipe', 'RecipeController@create');
+$router->post('/add-recipe', 'RecipeController@save');
