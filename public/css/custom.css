@@ -1,0 +1,12 @@
+.recipe-metadata dt, .recipe-metadata dd {
+    display: inline;
+}
+
+.recipe-metadata dd {
+    padding-right: 15px;
+}
+
+.ingredient-list dt {
+    font-weight: 400;
+    color: #666;
+}
